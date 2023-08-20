@@ -153,8 +153,7 @@ const ImageContainer = ({ setGalleryCount, galleryCount }) => {
               // backgroundColor: "red",
               width: 100,
               height: 100,
-              zIndex: 1, // Make sure it's above the image
-            }}
+              zIndex: 1, 
             onPress={() => setToggleModal(false)}
           >
             <Ionicons
