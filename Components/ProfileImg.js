@@ -84,14 +84,14 @@ const ProfileImg = () => {
         {
           text: "Edit",
           onPress: () => {
-            // Implement your edit logic here
+         
             navigation.navigate("imageView");
           },
         },
         {
           text: "Remove",
           onPress: () => {
-            // Implement your delete logic here
+       
           },
         },
         {
@@ -161,7 +161,6 @@ const ProfileImg = () => {
             source={{ uri: gallery ? selectedMedia.uri : gallery[0].data.url }}
             style={styles.mediaInModal}
           />
-          {/* Add your delete and edit options here */}
         </View>
       </Modal>
     </View>
